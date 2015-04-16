@@ -4,19 +4,19 @@
 <property name="name" value="com.mediadriver.webservices.wssebservicesbp.WSWebSeriverBusinessProcess-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="message_id" type="InputTextInteger" id="2063060648">
+<field position="0" name="mymessage_id" type="InputTextInteger" id="855762344">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;id (message)quot;"/>
-<property name="inputBinding" value="message/id"/>
-<property name="outputBinding" value="message/id"/>
+<property name="label" value="quot;enquot;,quot;id (mymessage)quot;"/>
+<property name="inputBinding" value="mymessage/id"/>
+<property name="outputBinding" value="mymessage/id"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="message_message" type="InputText" id="415028034">
+<field position="1" name="mymessage_message" type="InputText" id="949490673">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;message (message)quot;"/>
-<property name="inputBinding" value="message/message"/>
-<property name="outputBinding" value="message/message"/>
+<property name="label" value="quot;enquot;,quot;message (mymessage)quot;"/>
+<property name="inputBinding" value="mymessage/message"/>
+<property name="outputBinding" value="mymessage/message"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder supportedType="className" inputId="message" name="#0000A0" type="dataModelerEntry" outId="message" value="com.mediadriver.webservices.wsdomain.MyMessage" id="message"/>
+<dataHolder supportedType="className" inputId="mymessage" name="#0000A0" type="dataModelerEntry" outId="mymessage" value="com.mediadriver.webservices.wsdomain.MyMessage" id="mymessage"/>
 </form>
